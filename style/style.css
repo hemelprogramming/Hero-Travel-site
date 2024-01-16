@@ -259,6 +259,79 @@ main {
   grid-template-columns: 473px 673px;
   gap: 24px;
 }
+/* chosse us start */
+.section-content-title {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.choose-description {
+  color: rgba(19, 19, 24, 0.7);
+  width: 100%;
+  max-width: 647px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card-container {
+  padding: 32px;
+}
+.card-container-bk {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.card-container-bk1 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.card-container-bk2 {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.cart-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.card-description {
+  width: 100%;
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card-container .card-img img {
+  width: 64px;
+  height: 64px;
+}
+.chosse-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.section-banner-img {
+  display: grid;
+}
+.section-container {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
 /* responsive mobile */
 @media screen and (max-width: 600px) {
   nav {
@@ -301,6 +374,7 @@ main {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    margin: 24px;
   }
   .main-container-img img {
     width: 100%;
@@ -316,5 +390,19 @@ main {
   }
   .destination-section {
     margin: 0 20px;
+  }
+  .destinatiom-head {
+    font-size: 1.2rem;
+  }
+  .section-title {
+    margin: 0 20px;
+  }
+  .chosse-card {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 20px;
+  }
+  .section-container {
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 }
