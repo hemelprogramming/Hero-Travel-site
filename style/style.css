@@ -38,7 +38,13 @@ nav .header-title {
   font-weight: 800;
   line-height: normal;
 }
-nav .span {
+.header-icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .span,
+.span {
   color: #ff5400;
   font-size: 36px;
   font-style: normal;
@@ -158,7 +164,7 @@ main {
 }
 .popular-tour-head {
   color: #131318;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -167,7 +173,7 @@ main {
   width: 100%;
   max-width: 500px;
   color: rgba(19, 19, 24, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
@@ -178,7 +184,7 @@ main {
   width: 100%;
   color: rgba(19, 19, 24, 0.7);
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
@@ -189,7 +195,7 @@ main {
   width: 100%;
   color: #5a5a5d;
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
@@ -224,7 +230,7 @@ main {
 .destinatiom-head {
   color: #131318;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -235,7 +241,7 @@ main {
   margin: 0 auto;
   color: rgba(19, 19, 24, 0.7);
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
@@ -336,7 +342,7 @@ main {
 .descount-item-head {
   color: #131318;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -348,7 +354,7 @@ main {
   color: rgba(19, 19, 24, 0.7);
   text-align: center;
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
@@ -371,7 +377,7 @@ main {
 }
 .discount-title {
   color: #131318;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -381,7 +387,7 @@ main {
   width: 100%;
   color: #5a5a5d;
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
@@ -390,7 +396,7 @@ main {
 }
 .price-section {
   color: #ff5400;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -405,7 +411,7 @@ main {
   color: #fff;
   text-align: center;
   font-family: Mulish;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -434,7 +440,7 @@ main {
   max-width: 500px;
   width: 100%;
   color: #131318;
-  font-size: 40px;
+  font: size 2.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: 60px;
@@ -443,7 +449,7 @@ main {
   max-width: 532px;
   width: 100%;
   color: #5a5a5d;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
@@ -453,7 +459,7 @@ main {
   max-width: 518px;
   width: 100%;
   color: #131318;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
@@ -472,11 +478,11 @@ main {
   padding: 100px 0;
 }
 .form-section {
-  max-width: 474px;
+  max-width: 335px;
   width: 100%;
   border-radius: 16px;
   border: 1px solid #ff5400;
-  padding: 0 40px;
+  padding: 40px;
 }
 .form-section form .input1 {
   display: block;
@@ -489,7 +495,7 @@ main {
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
   color: rgba(19, 19, 24, 0.3);
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -501,21 +507,20 @@ main {
   color: #fff;
   text-align: center;
   font-family: Mulish;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  padding: 14px 149px;
 }
 .form-section form input::placeholder {
   border: none;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 .Newsletter {
   color: #131318;
-  font-size: 24px;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -524,7 +529,7 @@ main {
   color: #5a5a5d;
   max-width: 350px;
   width: 100%;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
@@ -538,6 +543,60 @@ main {
 .newsletter-section {
   display: flex;
   gap: 24px;
+}
+/* footer section */
+.footer-section {
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer-section {
+  padding: 110px 0;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.footer-description {
+  max-width: 779px;
+  width: 100%;
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 33px;
+}
+.media-section {
+  max-width: 1320px;
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  max-width: 872px;
+  width: 100%;
+  height: 1px;
+  margin: 0 auto;
+  background: rgba(19, 19, 24, 0.1);
+  margin-top: 50px;
+}
+.copy-right-simble {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  color: #131318;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 /* responsive mobile */
 @media screen and (max-width: 600px) {
@@ -649,11 +708,28 @@ main {
     flex-direction: column-reverse;
     padding: 20px;
   }
-  .form-section {
-    max-width: 423px;
-    padding: 40px 41px;
-  }
   .form-section .submit {
     padding: 16px;
+  }
+  .section-form {
+    padding: 0;
+  }
+  .form-section form input {
+    padding: 15px 15px;
+  }
+  .form-section {
+    max-width: 335px;
+    padding: 24px;
+  }
+  .footer-title {
+    font-size: 1.2rem;
+  }
+  .footer-description {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 33px;
+  }
+  .footer-section {
+    padding: 33px 0;
   }
 }
