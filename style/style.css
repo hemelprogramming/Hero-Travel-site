@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -547,6 +548,7 @@ main {
 /* footer section */
 .footer-section {
   background: rgba(19, 19, 24, 0.05);
+  margin-top: 50px;
 }
 .footer-section {
   padding: 110px 0;
@@ -597,6 +599,91 @@ main {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+/* counter part */
+.counter-head {
+  max-width: 490px;
+  width: 100%;
+  color: #1e1e1e;
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+}
+.counter-description {
+  max-width: 516px;
+  width: 100%;
+  color: #616161;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.travel-counter-head ul li {
+  max-width: 338px;
+  width: 100%;
+  color: var(--Paragraph-Color, #616161);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.counter-btn {
+  border-radius: 17px;
+  background: #ff5400;
+  border: none;
+  padding: 16px 35px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.travel-counter {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-img {
+  max-width: 27px;
+  max-width: 100%;
+  background-color: #ff5400;
+  padding: 62px 41px;
+  border-radius: 17px;
+}
+.counter-section-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.count {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.counte {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.section {
+  padding: 100px 0;
 }
 /* responsive mobile */
 @media screen and (max-width: 600px) {
@@ -731,5 +818,17 @@ main {
   }
   .footer-section {
     padding: 33px 0;
+  }
+  .travel-counter {
+    flex-direction: column;
+    margin: 0 20px;
+    gap: 20px;
+  }
+  .counter-head {
+    font-size: 1.5rem;
+  }
+  .counter-section-part {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
   }
 }
