@@ -646,11 +646,12 @@ main {
   }
   .newsletter-section {
     flex-direction: column;
+    flex-direction: column-reverse;
     padding: 20px;
   }
   .form-section {
-    max-width: 368px;
-    padding: 38px 40px;
+    max-width: 423px;
+    padding: 40px 41px;
   }
   .form-section .submit {
     padding: 16px;
