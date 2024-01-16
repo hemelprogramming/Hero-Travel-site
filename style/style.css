@@ -429,6 +429,44 @@ main {
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
 }
+/* place start */
+.place-section-head {
+  max-width: 500px;
+  width: 100%;
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+}
+.place-description {
+  max-width: 532px;
+  width: 100%;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 24px 0;
+}
+.place-section-list ul li {
+  max-width: 518px;
+  width: 100%;
+  color: #131318;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.place-section {
+  display: flex;
+}
+.banner-video-section video {
+  width: 100%;
+  max-width: 610px;
+  border-radius: 16px;
+}
 /* responsive mobile */
 @media screen and (max-width: 600px) {
   nav {
@@ -528,5 +566,10 @@ main {
     margin: 0 20px;
     margin-bottom: 16px;
     margin-top: 16px;
+  }
+  .place-section {
+    flex-direction: column;
+    padding: 20px;
+    gap: 24px;
   }
 }
