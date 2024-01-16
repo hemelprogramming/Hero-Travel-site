@@ -648,6 +648,7 @@ main {
     flex-direction: column;
     flex-direction: column-reverse;
     padding: 20px;
+    align-items: center;
   }
   .form-section {
     max-width: 423px;
