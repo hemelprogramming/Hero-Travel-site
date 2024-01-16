@@ -347,9 +347,10 @@ main {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin-bottom: 24px;
 }
 .discount-description {
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
   margin: 0 auto;
   color: rgba(19, 19, 24, 0.7);
@@ -358,7 +359,8 @@ main {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  margin-bottom: 28px;
 }
 .discount-img-section {
   padding: 50px 50px 50px 400px;
@@ -438,7 +440,7 @@ main {
 }
 /* place start */
 .place-section-head {
-  max-width: 500px;
+  max-width: 423px;
   width: 100%;
   color: #131318;
   font: size 2.5rem;
@@ -447,7 +449,7 @@ main {
   line-height: 60px;
 }
 .place-description {
-  max-width: 532px;
+  max-width: 530px;
   width: 100%;
   color: #5a5a5d;
   font-size: 1rem;
