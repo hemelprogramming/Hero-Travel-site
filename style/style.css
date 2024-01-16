@@ -467,6 +467,78 @@ main {
   max-width: 610px;
   border-radius: 16px;
 }
+/* section-form */
+.section-form {
+  padding: 100px 0;
+}
+.form-section {
+  max-width: 474px;
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 0 40px;
+}
+.form-section form .input1 {
+  display: block;
+}
+.form-section form input {
+  max-width: 300px;
+  width: 100%;
+  border: none;
+  padding: 16px 20px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.form-section .submit {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 14px 149px;
+}
+.form-section form input::placeholder {
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Newsletter {
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.form-description {
+  color: #5a5a5d;
+  max-width: 350px;
+  width: 100%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+.form-img img {
+  width: 100%;
+  max-width: 672px;
+}
+.newsletter-section {
+  display: flex;
+  gap: 24px;
+}
 /* responsive mobile */
 @media screen and (max-width: 600px) {
   nav {
@@ -571,5 +643,16 @@ main {
     flex-direction: column;
     padding: 20px;
     gap: 24px;
+  }
+  .newsletter-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .form-section {
+    max-width: 368px;
+    padding: 38px 40px;
+  }
+  .form-section .submit {
+    padding: 16px;
   }
 }
